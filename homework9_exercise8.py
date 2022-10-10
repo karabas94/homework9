@@ -5,7 +5,7 @@ from string import ascii_lowercase
 
 def ran_num():
     """This function return random number with range from 100 to 1000"""
-    return randint(100, 1000)
+    return randint(100, 999)
 
 
 def ran_str():
