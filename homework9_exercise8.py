@@ -16,5 +16,5 @@ def ran_str():
 def emails(names: list, domains: list):
     """This function return generator emails with ran.name+dot+ran.num+at+ran.str+dot+ran.domains"""
     email = random.choice(names) + "." + str(ran_num()) + "@" + str(ran_str()) + "." + random.choice(domains)
-    print(email)
+    print("(Exercise 8) Generator for emails: ", email)
     return email

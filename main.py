@@ -1,3 +1,11 @@
+from homework9_exercise1 import new_list_1
+from homework9_exercise2 import new_list_2
+from homework9_exercise3 import new_list_3
+from homework9_exercise4 import new_list_4
+from homework9_exercise5 import new_list_5
+from homework9_exercise6 import new_list_6
+from homework9_exercise7 import new_list_7
+from homework9_exercise8 import emails
 """
 1. Написать функцию которой передается один параметр - список строк my_list.
 Функция возвращает новый список в котором содержаться
@@ -6,57 +14,43 @@
 перевернутую строку. "qwe" на "ewq".
 Если на четном - оставить без изменения.
 """
-from homework9_exercise1 import new_list
-
-new_list(["qwe", "rty", "uio", "pas", "dfg", "hjk"])
+new_list_1(["qwe", "rty", "uio", "pas", "dfg", "hjk"])
 """
 2. Написать функцию которой передается один параметр - список строк my_list.
 Функция возвращает новый список в котором содержаться
 элементы из my_list у которых первый символ - буква "a".
 """
-from homework9_exercise2 import new_list
-
-new_list(["awe", "ray", "uia", "aps", "dag", "hja"])
+new_list_2(["awe", "ray", "uia", "aps", "dag", "hja"])
 """
 3. Написать функцию которой передается один параметр - список строк my_list.
 Функция возвращает новый список в котором содержаться
 элементы из my_list в которых есть символ - буква "a" на любом месте.
 """
-from homework9_exercise3 import new_list
-
-new_list(["qwe", "rty", "uio", "aps", "dag", "hja"])
+new_list_3(["qwe", "rty", "uio", "aps", "dag", "hja"])
 """
 4. Написать функцию которой передается один параметр - список строк my_list в
 котором могут быть как строки (type str) так и целые числа (type int).
 Функция возвращает новый список в котором содержаться только строки из my_list.
 """
-from homework9_exercise4 import new_list
-
-new_list(["qwe", 111, "uio", 222, "dag", 333])
+new_list_4(["qwe", 111, "uio", 222, "dag", 333])
 """
 5. Написать функцию которой передается один параметр - строка my_str.
 Функция возвращает новый список в котором содержаться те символы из my_str,
 которые встречаются в строке только один раз.
 """
-from homework9_exercise5 import new_list
-
-new_list("My name is Oleksandr")
+new_list_5("My name is Oleksandr")
 """
 6. Написать функцию которой передается два параметра - две строки.
 Функция возвращает список в который поместить те символы,
 которые есть в обеих строках хотя бы раз.
 """
-from homework9_exercise6 import new_list
-
-new_list("My name Oleksandr", "My name Mykola")
+new_list_6("My name Oleksandr", "My name Mykola")
 """
 7. Написать функцию которой передается два параметра - две строки.
 Функция возвращает список в который поместить те символы, которые есть в обеих строках,
 но в каждой только по одному разу.
 """
-from homework9_exercise7 import new_list
-
-new_list("My name Oleksandr", "My name Mykola")
+new_list_7("My name Oleksandr", "My name Mykola")
 """
 8. Даны списки names и domains (создать самостоятельно).
 Написать функцию для генерирования e-mail в формате:
@@ -64,6 +58,4 @@ new_list("My name Oleksandr", "My name Mykola")
 фамилию и домен брать случайным образом из заданных списков переданных в функцию в виде параметров.
 Строку и число генерировать случайным образом.
 """
-from homework9_exercise8 import emails
-
 emails(["oleksandr", "dmitry", "mykola", "nina", "vasyl"], ["com", "net", "ua", "eu", "io"])
