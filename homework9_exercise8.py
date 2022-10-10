@@ -10,7 +10,7 @@ def ran_num():
 
 def ran_str():
     """This function return random string with range from 5 to 7 symbols"""
-    return ''.join(choice(ascii_lowercase) for _ in range(5, 8))
+    return ''.join(choice(ascii_lowercase) for _ in range(randint(5, 7)))
 
 
 def emails(names: list, domains: list):
